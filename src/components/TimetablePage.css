@@ -1,0 +1,63 @@
+.timetable-container {
+    height: 100vh;
+    background-color: #007bff; /* Blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .hero-section {
+    max-width: 900px;
+    background-color: #fff; /* White content area */
+    color: #333;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff; /* Blue text for title */
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #555; /* Subtle gray for subtitle */
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    margin: 20px 0;
+    color: #777; /* Lighter gray for descriptions */
+  }
+  
+  .table-responsive {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    background-color: #f8f9fa; /* Light table background */
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .table td {
+    color: #333;
+    vertical-align: middle;
+  }
+  
+  .text-danger {
+    color: #dc3545; /* Red text for error or warnings */
+  }
+  
